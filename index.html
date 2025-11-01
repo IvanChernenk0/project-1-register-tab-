@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register tab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrypt.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <div class="glow"></div>
+        <div class="registration-window">
+            <div class="register-step-1">
+                <h3 class="title">Register</h3>
+                <div>
+                    <p class="title-input title-input-name">Name</p>
+                    <input class="input name" type="text" placeholder="Enter your name">
+                </div>
+                <div>
+                    <p class="title-input title-input-email">Email</p>
+                    <input class="input email" type="email" placeholder="Example@gmail.com"> 
+                </div>
+            </div>
+            <div class="register-step-2 hidden">
+                <h3 class="title">Which topics you are interested in?</h3>
+                <div class="select-topic-btn-container">
+                    <button class="select-topic-btn">Software Development</button>
+                    <button class="select-topic-btn">User Experience</button>
+                    <button class="select-topic-btn">Graphic Design</button>
+                </div>
+            </div>
+            <div class="register-step-3 hidden">
+                <h3 class="title">Summary</h3>
+            </div>
+            <button class="continue-btn">Continue</button>
+        </div>
+        <div class="steps-container">
+            <p class="step">Step 1 of 3</p>
+            <div class="btn-container">
+                <button class="dot-btn active-dot-btn"></button>
+                <button class="dot-btn"></button>
+                <button class="dot-btn"></button>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
